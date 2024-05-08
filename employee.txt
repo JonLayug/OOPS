@@ -1,0 +1,16 @@
+class Employee {
+	public string Name { get; set;}
+	public int Age { get; set;}
+	public int EmployeeId { get; set;}
+	public int Position { get; set;}
+	public int Department { get; set;}
+	public int Salary { get; set;}
+	public date HireDate { get; set;}
+	
+
+class Employer {
+	public string FirstName { get; set;}
+	public string LastName { get; set;}
+	public int EmployeeId { get; set;}
+	public int TotalEmployees { get; set;}
+	
